@@ -1,0 +1,31 @@
+.table{
+    align-items: center;
+    justify-content: center;
+    
+    display: grid;
+        grid-template-columns: 105px 105px 105px 105px;
+}
+.Button-num{
+    width: 105px;
+    height: 35px;
+
+    font-weight: bold;
+    font-size: 16px;   
+}
+.Button-cal{
+    width: 105px;
+    height: 35px;
+
+    font-weight: bold;
+    font-size: 16px; 
+    background-color:#e75500;  
+}
+.Button-0{
+    width: 210px;
+    height: 35px;
+
+    font-weight: bold;
+    font-size: 16px; 
+    
+    grid-column:1 / span 2 ;
+}
